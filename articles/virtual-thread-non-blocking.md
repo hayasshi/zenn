@@ -3,7 +3,7 @@ title: "Java の VirtualThread は `java.net.Socket` をノンブロッキング
 emoji: "☕"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Java"]
-published: false
+published: true
 ---
 ## TL;DR;
 
