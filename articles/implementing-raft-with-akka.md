@@ -3,10 +3,12 @@ title: "Akka で Raft を実装してみた話"
 emoji: "🪵"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Raft", "Scala", "Akka", "Pekko"]
-published: false
+published: true
 ---
 
-これは Scala Advent Calendar 2023 の 10 日目の記事です。(埋め用)
+これは Scala Advent Calendar 2023 の 10 日目の記事です。(空いていたので埋めました)
+
+@[card](https://qiita.com/advent-calendar/2023/scala)
 
 最近の分散データベースでよく聞く Raft について、その論文を読んでみたところ基本的な部分はシンプルで理解しやすく、メッセージを送りあい、ログをつかって自分の状態を変更していくステートマシンモデルであったため、「Akka でいい感じに実装できそうだな」と思い、やってみました。
 
